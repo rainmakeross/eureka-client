@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-client
+  cloud:
+    services:
+      registrationMethod: route
+security:
+  basic:
+    enabled: false
